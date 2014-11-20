@@ -2,12 +2,12 @@
 #+AUTHOR: Quentin_Hsu
 #+DATE: 2014-11-20 12:49
 
-* Configurate Git (http://wuyuans.com/2012/05/github-simple-tutorial/)
-** ssh
+** Configurate Git (http://wuyuans.com/2012/05/github-simple-tutorial/)
+*** ssh
    + $ ssh-kenyen -t rsa -C "your.email"
    + $ ssh -T git@github.com
 
-** git 
+*** git 
    + $ mkdir your_repo
    + $ cd your_repo
    + $ git init
