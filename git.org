@@ -1,0 +1,18 @@
+#+TITLE: Git Config
+#+AUTHOR: Quentin_Hsu
+#+DATE: 2014-11-20 12:49
+
+* Configurate Git (http://wuyuans.com/2012/05/github-simple-tutorial/)
+** ssh
+   + $ ssh-kenyen -t rsa -C "your.email"
+   + $ ssh -T git@github.com
+
+** git 
+   + $ mkdir your_repo
+   + $ cd your_repo
+   + $ git init
+   + $ git pull git@github.com:yourname/yourrepo.git
+   + $ git add -u
+   + $ git remote add origin git@github.com:yourname/yourrepo.git
+   + $ git commit -m ""
+   + $ git push origin master
