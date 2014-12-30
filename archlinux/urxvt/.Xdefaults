@@ -1,0 +1,125 @@
+URxvt.multichar_encoding:utf-8
+
+!URxvt.inputMethod:ibus
+!URxvt.preeditType:OnTheSpot,None
+
+!!$HOME/.Xdefaults
+URxvt.preeditType:OverTheSpot,None
+!!调整此处设置输入法
+URxvt.inputMethod:ibus
+!!颜色设置
+URxvt.depth:32
+!!中括号内数表示透明度
+URxvt.background: [50]#000000
+!URxvt.background: #000000
+URxvt.foreground: #c0c0c0
+! black
+URxvt.color0: #000000
+URxvt.color8: #2C2C2C
+! red
+URxvt.color1: #C42B2B
+URxvt.color9: #FF2929
+! green
+URxvt.color2: #3BD93B
+URxvt.color10: #28FC28
+! yellow
+URxvt.color3: #E3E336
+URxvt.color11: #FFEA1E
+! blue
+!URxvt.color4: #4747BB
+!URxvt.color12: #2121DE
+! magenta
+URxvt.color5: #CB40CB
+URxvt.color13: #FF00FF
+! cyan
+URxvt.color6: #6FD2D2
+URxvt.color14: #00FFFF
+! white
+URxvt.color7: #C0C0C0
+URxvt.color15: #FFFFFF
+
+!URxvt.colorBD:Gray95
+!URxvt.colorUL:Green
+!URxvt.color1:Red2
+URxvt.color4:RoyalBlue
+!URxvt.color5:Magenta2
+!URxvt.color8:Gray50
+!URxvt.color10:Green2
+URxvt.color12:DodgerBlue
+!URxvt.color14:Cyan2
+!URxvt.color15:Gray95
+
+!URxvt.shading:-60
+
+!!URL操作
+URxvt.urlLauncher:chromium
+URxvt.matcher.button:1
+Urxvt.perl-ext-common:matcher
+!!滚动条设置
+URxvt.scrollBar:True
+URxvt.scrollBar_right:True
+URxvt.scrollBar_floating:False
+URxvt.scrollstyle:plain
+!!滚屏设置
+URxvt.mouseWheelScrollPage:True
+URxvt.scrollTtyOutput:False
+URxvt.scrollWithBuffer:True
+URxvt.scrollTtyKeypress:True
+!!光标闪烁
+URxvt.cursorBlink:True
+URxvt.saveLines:3000
+!!边框
+URxvt.borderLess:False
+
+URxvt.perl-ext-common: ...,clipboard
+! lipboard
+URxvt.keysym.Super_L-v: perl:clipboard:paste
+URxvt.keysym.M-c: perl:clipboard:copy
+! 禁用到Ctrl+Shift的输入特殊字符功能
+URxvt*iso14755_52: False
+
+!!字体设置
+!!Xft.dpi:96
+!URxvt.font:xft:文泉驿等宽正黑:size=9:style=Regular:antialias=true,xft:文泉驿等宽正黑:size=8:style=Regular:antialias=true
+!URxvt.boldfont:xft:文泉驿等宽正黑:size=9:style=BOld:antialias=true,xft:文泉驿等宽正黑:size=8:style=Bold:antialias=true
+
+!URxvt.background:black
+!URxvt.foreground:green
+
+URxvt.font:xft:Courier New:size=11:style=Regular:antialias=true
+
+!URxvt.perl-ext-common: ..., default, ...
+ 
+!!!!! colors
+!URxvt.depth:32
+! enable pseudo-transparency
+!URxvt.transparent: true
+! opacity
+!URxvt.shading: 15
+! background
+!URxvt.background: #000000
+!URxvt.foreground: #c0c0c0
+! black
+!URxvt.color0: #000000
+!URxvt.color8: #2C2C2C
+! red
+!URxvt.color1: #C42B2B
+!URxvt.color9: #FF2929
+! green
+!URxvt.color2: #3BD93B
+!URxvt.color10: #28FC28
+! yellow
+!URxvt.color3: #E3E336
+!URxvt.color11: #FFEA1E
+! blue
+!URxvt.color4: #4747BB
+!URxvt.color12: #2121DE
+! magenta
+!URxvt.color5: #CB40CB
+!URxvt.color13: #FF00FF
+! cyan
+!URxvt.color6: #6FD2D2
+!URxvt.color14: #00FFFF
+! white
+!URxvt.color7: #C0C0C0
+!URxvt.color15: #FFFFFF
